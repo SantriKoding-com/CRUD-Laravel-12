@@ -22,7 +22,7 @@ class ProductController extends Controller
     /**
      * index
      *
-     * @return void
+     * @return View
      */
     public function index() : View
     {
