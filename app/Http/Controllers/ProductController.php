@@ -46,7 +46,7 @@ class ProductController extends Controller
     /**
      * store
      *
-     * @param  mixed $request
+     * @param  Illuminate\Http\Request $request
      * @return RedirectResponse
      */
     public function store(Request $request): RedirectResponse
@@ -110,7 +110,7 @@ class ProductController extends Controller
     /**
      * update
      *
-     * @param  mixed $request
+     * @param  Illuminate\Http\Request $request
      * @param  mixed $id
      * @return RedirectResponse
      */
